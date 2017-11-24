@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">记忆笔记</string>
+
+    <string name="navigation_drawer_open">打开抽屉</string>
+    <string name="navigation_drawer_close">关闭抽屉</string>
+
+    <string name="navigation_drawer_all_notes">所有笔记</string>
+    <string name="navigation_drawer_notebook">笔记本</string>
+
+    <string name="action_search">搜索</string>
+    <string name="action_settings">设置</string>
+
+    <string name="action_cancel">取消</string>
+    <string name="action_ok">好</string>
+
+    <string name="new_book">新建笔记本</string>
+    <string name="new_book_hint">名称</string>
+</resources>

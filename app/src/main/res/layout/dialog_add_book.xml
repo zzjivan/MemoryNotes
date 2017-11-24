@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+
+    <TextView
+        android:id="@+id/tv_dialg_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_book"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/et_book_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_dialg_title"
+        android:textSize="16sp"
+        android:hint="@string/new_book_hint"/>
+
+    <Button
+        android:id="@+id/bt_ok_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_ok"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/et_book_title"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:id="@+id/bt_cancel_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_cancel"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_toLeftOf="@id/bt_ok_action"
+        android:layout_alignBottom="@id/bt_ok_action"/>
+
+</RelativeLayout>
